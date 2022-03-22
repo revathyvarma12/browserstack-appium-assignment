@@ -1,0 +1,35 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "username": "revathyvarma_DwJ8pQ",
+  "access_key": "Gr1FoxfTAE2Mj8FKJsXm",
+
+  "capabilities": {
+    "project": "First TestNg iOS Project",
+    "build": "browserstack-apppium-rev-1",
+    "name": "parallel_test",
+    "browserstack.debug": true,
+    "browserstack.networkLogs": true,
+    "browserstack.networkProfile": "3.5g-hspa-good",
+    "app": "bs://ce032341553f4739881593c3a4bdb0f1e858b937"
+  },
+
+  "environments": [
+    {
+      "device": "iPhone 11 Pro",
+      "os_version": "13"
+    },
+    {
+      "device": "iPhone 11 Pro Max",
+      "os_version": "13"
+    },
+    {
+      "device": "iPhone 8 Plus",
+      "os_version": "12"
+    },
+    {
+      "device": "iPhone SE",
+      "os_version": "11",
+      "browserstack.appium_version":"1.8.0"
+    }
+  ]
+}
